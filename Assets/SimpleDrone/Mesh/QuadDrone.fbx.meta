@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: c0dc028fd29e0a54a9110b7794ceeeed
+timeCreated: 1490109124
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arms
+    100002: Body
+    100004: Body.001
+    100006: Drone_Protection
+    100008: Drone_Rig
+    100010: Light
+    100012: Master
+    100014: //RootNode
+    100016: Rotor_1
+    100018: Rotor_1 1
+    100020: Rotor_1_end
+    100022: Rotor_2
+    100024: Rotor_2 1
+    100026: Rotor_2_end
+    100028: Rotor_3
+    100030: Rotor_3 1
+    100032: Rotor_3_end
+    100034: Rotor_4
+    100036: Rotor_4 1
+    100038: Rotor_4_end
+    100040: Rotors
+    100042: Rotors_end
+    400000: Arms
+    400002: Body
+    400004: Body.001
+    400006: Drone_Protection
+    400008: Drone_Rig
+    400010: Light
+    400012: Master
+    400014: //RootNode
+    400016: Rotor_1
+    400018: Rotor_1 1
+    400020: Rotor_1_end
+    400022: Rotor_2
+    400024: Rotor_2 1
+    400026: Rotor_2_end
+    400028: Rotor_3
+    400030: Rotor_3 1
+    400032: Rotor_3_end
+    400034: Rotor_4
+    400036: Rotor_4 1
+    400038: Rotor_4_end
+    400040: Rotors
+    400042: Rotors_end
+    4300000: Drone_Protection
+    4300002: Body.001
+    4300004: Arms
+    4300006: Rotor_4
+    4300008: Rotor_3
+    4300010: Rotor_2
+    4300012: Rotor_1
+    4300014: Light
+    4300016: Body
+    7400000: RotorSpin
+    9500000: //RootNode
+    13700000: Arms
+    13700002: Body
+    13700004: Body.001
+    13700006: Drone_Protection
+    13700008: Light
+    13700010: Rotor_1
+    13700012: Rotor_2
+    13700014: Rotor_3
+    13700016: Rotor_4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RotorSpin
+      takeName: Drone_Rig|Drone_RigAction.001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Drone_Protection
+        weight: 1
+      - path: Drone_Protection/Arms
+        weight: 1
+      - path: Drone_Protection/Body
+        weight: 1
+      - path: Drone_Protection/Body.001
+        weight: 1
+      - path: Drone_Protection/Light
+        weight: 1
+      - path: Drone_Protection/Rotor_1
+        weight: 1
+      - path: Drone_Protection/Rotor_2
+        weight: 1
+      - path: Drone_Protection/Rotor_3
+        weight: 1
+      - path: Drone_Protection/Rotor_4
+        weight: 1
+      - path: Drone_Rig
+        weight: 1
+      - path: Drone_Rig/Master
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_1 1
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_1 1/Rotor_1_end
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_2 1
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_2 1/Rotor_2_end
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_3 1
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_3 1/Rotor_3_end
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_4 1
+        weight: 1
+      - path: Drone_Rig/Master/Rotor_4 1/Rotor_4_end
+        weight: 1
+      - path: Drone_Rig/Master/Rotors
+        weight: 1
+      - path: Drone_Rig/Master/Rotors/Rotors_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
