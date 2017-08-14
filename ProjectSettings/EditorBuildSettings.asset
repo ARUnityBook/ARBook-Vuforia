@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ch4-Drone.unity
     guid: 94f5d696970e2f64c98b89ec71c8d546
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ch5-SolarSystem.unity
     guid: 42b07ba943e0f5a42907f4e99563be7a
+  - enabled: 0
+    path: Assets/Ch6-ARManual.unity
+    guid: ed165dae6cbfe6646a97cbbafc31ea98
+  - enabled: 1
+    path: Assets/Ch7-ChangeTire.unity
+    guid: 834d7f6dce0f4c34c83433064c70fe95
