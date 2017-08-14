@@ -44,9 +44,11 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Vuforia
     - BusinessCard
     - StonesAndChips
     dataSetsToActivate:
+    - Vuforia
     - BusinessCard
     - StonesAndChips
   videoBackground:

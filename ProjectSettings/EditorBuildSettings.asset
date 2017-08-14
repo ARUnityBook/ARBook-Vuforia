@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ch2-Cube.unity
     guid: 5eeb0146c20ceb44488a8d3f7dcc5849
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ch4-Drone.unity
     guid: 94f5d696970e2f64c98b89ec71c8d546
+  - enabled: 1
+    path: Assets/Ch5-SolarSystem.unity
+    guid: 42b07ba943e0f5a42907f4e99563be7a
