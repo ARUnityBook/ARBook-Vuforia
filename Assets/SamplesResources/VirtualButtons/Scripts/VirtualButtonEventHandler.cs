@@ -59,7 +59,7 @@ public class VirtualButtonEventHandler : MonoBehaviour,
     /// <summary>
     /// Called when the virtual button has just been pressed:
     /// </summary>
-    public void OnButtonPressed(VirtualButtonAbstractBehaviour vb)
+    public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         Debug.Log("OnButtonPressed: " + vb.VirtualButtonName);
 
@@ -97,7 +97,7 @@ public class VirtualButtonEventHandler : MonoBehaviour,
     /// <summary>
     /// Called when the virtual button has just been released:
     /// </summary>
-    public void OnButtonReleased(VirtualButtonAbstractBehaviour vb)
+    public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         if (!IsValid())
         {

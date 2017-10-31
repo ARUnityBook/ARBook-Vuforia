@@ -76,3 +76,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 Assets/MetaSDK/Plugins/x86_64/AudioPluginMeta.dll
+
+# Visual Studio stuff
+.vs/
+

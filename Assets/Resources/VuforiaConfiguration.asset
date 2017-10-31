@@ -8,11 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d76b89ff4afc5a04195eab54bc63d331, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AS9kKTj/////AAAAGZfxneqSLUBKoZPhmD0MNoYmcVALRF5AfRpxX6Wh1MFmLtirU7JZX4ZvfEEsC/DAPsUCfRqJRYP5M/twkOMxOH0sqawf6zJAVmCsaPtdwiar3SDdbZ6iN+qjd9OMRO+31LIh8xoSm0HK5vwTee+hvnhPWe/PqcCttAMrTXZ0PqUhAzCoUaatgHdOyyupNku+r7FGGZmzWUTINEKMlEOcFcXtWvIBSxnr9MDFNt5Y8JU287LkBEgsNOlefghoorIcD9+IXqu2b96vc4nhQrW4/VsEYHniqScFYRGlAN8q6pT3BOs53nC0f0tQLCqAiMTRUfvS5ufcL8PZwNbU0Dut9NGFFS4YEvNW/4ZSJ/WCMlFU
+    ufoLicenseKey: QVdHZVExMy8vLy8vQUFBQUtMZ2x2S1NQZVVqaHQ2S1pJeHFtMUJvSlN3SFZKYkJVWm5DMXloVmd5dHJVVmZqcEd0bUNCOXM3bjV5M3kvNU5laStGSU0zOUtFR3pSRUNmd2VmRmpoV3pvM2xaRGRUdThrMVpHYmpCWXJYY0FVOGtHN2JKREJoSlZERy9IbTgxcm9WN3pINjhhWmNhMnlxT0dwamFJSmgveThtMDR6Q3hadkJmMmdZOFBXR25RNk1WN2tKNjE0TXcvSFlyZEdnRlBwTnVKbXJHbG5MYnFRNmJVdEs1UU1qL3JnNTFpRTUzMkJFNlZDZzZSVm54SjhNQWNTMk9jK1JVVG5hK1RxVEdYeW1QYWpweUJNa3J2UDdFR1V3KzA5NEVsME1uU3RmeUhFeWljQVhWMkVYc0s5eU04U1RXSnZocGdUWDYvVWNYaFVFbHd3VnFQbXhxTFFSY1NoVkVHa1ZqbHZZWG9nVGpGOVVZZGhjd3FmVXg=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -22,7 +23,6 @@ MonoBehaviour:
     mirrorVideoBackground: 0
   digitalEyewear:
     cameraOffset: 0.06
-    distortionRenderingMode: 1
     distortionRenderingLayer: 31
     eyewearType: 0
     stereoFramework: 0
@@ -44,25 +44,29 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - StonesAndChips
     - Vuforia
     - BusinessCard
-    - StonesAndChips
     dataSetsToActivate:
+    - StonesAndChips
     - Vuforia
     - BusinessCard
-    - StonesAndChips
   videoBackground:
     clippingMode: 0
-    matteShader: {fileID: 4800000, guid: f84e93cca971cda47a225f4c6a4156c9, type: 3}
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
+      type: 0}
+    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   smartTerrainTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    autoInitBuilder: 1
-    sceneUnitsToMillimeter: 1000
+    autoInitTracker: 0
+    autoStartTracker: 0
+    autoInitBuilder: 0
+    sceneUnitsToMillimeter: 0
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0

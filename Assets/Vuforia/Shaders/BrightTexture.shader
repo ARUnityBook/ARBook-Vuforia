@@ -1,4 +1,7 @@
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+//==============================================================================
+//Copyright (c) 2013-2014 Qualcomm Connected Experiences, Inc.
+//All Rights Reserved.
+//==============================================================================
 
 Shader "Custom/BrightTexture" {
     Properties {
