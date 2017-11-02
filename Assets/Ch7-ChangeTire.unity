@@ -3750,7 +3750,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2035926691}
+      - m_Target: {fileID: 421995411}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -3852,8 +3852,8 @@ MonoBehaviour:
   mAutoSetOccluderFromTargetSize: 0
   mAspectRatio: 1
   mImageTargetType: 1
-  mWidth: 0.12065
-  mHeight: 0.12065
+  mWidth: 1
+  mHeight: 1
 --- !u!4 &2043502105
 Transform:
   m_ObjectHideFlags: 0
@@ -3862,7 +3862,7 @@ Transform:
   m_GameObject: {fileID: 2043502098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12065, y: 0.12065, z: 0.12065}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1336140571}
   m_Father: {fileID: 0}
