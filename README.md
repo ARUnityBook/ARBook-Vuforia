@@ -16,16 +16,17 @@ The following book's AR projects are included as separate Unity scenes:
 * Chapter 6 - How to Change a Flat Tire
 * Chapter 7 - Augmenting the Instruction Manual
 * Chapter 8 - Room Decoration with AR: Photo Frames
-* Chapter 9 - Poke the Ball Game
+* (Chapter 9 - Poke the Ball Game)
 
 
 ## About the Book
 
-*Augmented Reality for Developers*
+### *Augmented Reality for Developers*
+*by Jonathan Linowes, Krystian Babilinski*
 
 Build exciting AR applications on mobile and wearable devices with Unity 3D, Vuforia, ARToolKit, Microsoft Mixed Reality HoloLens, Apple ARKit, and Google ARCore
 
-by Jonathan Linowes, Krystian Babilinski
+
 
 Available at:
 
@@ -42,16 +43,16 @@ The implementation in this repository/branch is with Unity 2017.2 with integrate
 
 Install Unity 2017.2 or later, including the Vuforia components. Be sure to check the "Vuforia Augmented Reality Support" in Download Assistant.
 
-*Pg 60: Using Camaeras in AR* 
+*Pg 60: Using Cameras in AR* 
 
-The Vuforia "AR Camera" is not a prefab, it is now a standard GameObject that can be inserted into the scene via main menu **GameObject | Vuforia | AR Camera** (or Hierarchy Create menu).
+The Vuforia "AR Camera" is a built-in GameObject that can be inserted into the scene via main menu **GameObject | Vuforia | AR Camera** (or the Hierarchy's **Create** menu).
 
 *Pg 63-68: Getting and using Vuforia*
 
 Vuforia is not a separate asset package. Install Vuforia via Download Assistant. Then, 
 
-1. Go into **Player Settings** (Edit | Project Settings | Player)
-2. In Inspector, in the XR Settings section, check the **Vuforia Augmented Reality Supported** checkbox
+1. Go into **Player Settings** (via **Edit | Project Settings | Player**)
+2. In Inspector, in the **XR Settings** section, check the **Vuforia Augmented Reality Supported** checkbox
 3. When you attempt to insert a Vuforia game object into a scene, for example **GameObject | Vuforia | AR Camera** you will be prompted to "Import Vuforia Assets". Click the **Import** button to add them to your project.
 
 You will now have the following new folders and files in your Assets:
@@ -90,11 +91,11 @@ No changes.
 To create a new project using Vuforia:
 
 1. Open Unity 2017.2 (or later), create a new 3D project
-2. In **Player Settings** (Edit | Projects Settings | Player) check the **Vuforia Augmented Reality Supported** checkbox
+2. In **Player Settings** (via **Edit | Projects Settings | Player**) check the **Vuforia Augmented Reality Supported** checkbox
 3. In your browser, go to Vuforia website Developer Portal's License Manager (https://developer.vuforia.com/targetmanager/licenseManager/licenseListing, login required), create or choose a license key to open it, and copy the key codes from the textbox on the screen
-4. Back in Unity, from main menu choose Windows | Vuforia Configuration 
+4. Back in Unity, from main menu choose **Window | Vuforia Configuration** 
 5. In the Inspector, paste your license key into the **App License Key** area
-6. Save the scene (File | Save Scenes), and save the project (File | Save Project)
+6. Save the scene (**File | Save Scenes**), and save the project (**File | Save Project**)
 
 To add the AR camera to the scene,
 
@@ -161,4 +162,5 @@ See steps above (Chapter 4)
 
 ### Chapter 9
 
-SmartTerrain is not yet integrated into Unity 2017.2 built-in Vuforia support. Until it becomes available (Unity 2017.3 ?) we recommend you use Vuforia 6.2 version components.
+SmartTerrain is not yet integrated into Unity 2017.2 built-in Vuforia support. Until it becomes available (Unity 2017.3 ?) we recommend you use Vuforia 6.2 version components. Use this project branch: https://github.com/ARUnityBook/ARBook-Vuforia/tree/BookPublished
+
